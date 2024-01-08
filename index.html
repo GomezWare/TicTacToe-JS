@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="code.js"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <dialog id="delConfirm">
+    <h3>Are you sure?</h3>
+    <button id="bn">No</button>
+    <button id="by" class="danger">Yes</button>
+  </dialog>
+  <dialog id="owin">
+    <h1>Player O WINS</h1>
+  </dialog>
+  <dialog id="xwin">
+    <h1>Player X WINS</h1>
+  </dialog>
+  <dialog id="tie">
+    <h1>TIE</h1>
+  </dialog>
+  <dialog id="scoreSave">
+    <h2>Scores Saved</h2>
+  </dialog>
+  <dialog id="scoreDel">
+    <h2>Scores Deleted</h2>
+  </dialog>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <h3 id="status">Game Start: Player X turn</h3>
+    <section class="gameboard">
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+    </section>
+    <section class="score">
+      <h2>Scoreboard</h2>
+      <div>
+        <div class="pscore">
+          <h1>X</h1>
+          <h2 id="xs">0</h2>
+        </div>
+        <div class="pscore">
+          <h1>O</h1>
+          <h2 id="os">0</h2>
+        </div>
+      </div>
+    </section>
+    <section class="controls">
+      <button id="reset">Reset Score</button>
+      <button id="save">Save Score</button>
+      <button id="clrBoard">Clear the board</button>
+    </section>
+  </body>
+</html>

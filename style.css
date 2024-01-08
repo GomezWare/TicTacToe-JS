@@ -1,0 +1,47 @@
+.gameboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gameboard button {
+  height: 8rem;
+  font-size: 4rem;
+}
+
+#status {
+  background-color: #0c151c6a;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+.score {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-inline: 4rem;
+}
+
+.pscore {
+  background-color: #0c151c6a;
+}
+
+.controls {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.danger {
+background-color: #ff623a;
+}
