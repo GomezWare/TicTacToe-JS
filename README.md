@@ -36,3 +36,5 @@ Contributions are welcome! If you like to contribute to the project.
 
 ## Acknowledgments
 Special thanks to Kognise for creating [Water.css](https://watercss.kognise.dev/), the styling framework used in this project.
+
+One of my first JS projects !!!
